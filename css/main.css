@@ -4,7 +4,7 @@
 
 .body {
   margin: 0;
-  font-family: "Open Sans", "Arial" , sans-serif;
+  font-family: "Open Sans", "Arial" , sans-serif
 }
 
 .container {
@@ -78,7 +78,7 @@
 }
 
 .navbar-out-link:hover {
-  border: #00BAFC;
+  border: 3px #00BAFC;
   border-style: solid;
   background-color: #fff;
   color: #00BAFC;
@@ -396,4 +396,9 @@
 
 .app-footer:active   {
   opacity: 0.6;
+}
+
+.footer-app-link {
+  display: flex;
+  margin-bottom: 5px;
 }
