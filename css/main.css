@@ -75,21 +75,23 @@
   line-height: 24px;
   text-decoration-line: none;
   padding: 8px 16px; 
+  border: 3px solid #00BAFC;
+
 }
 
 .navbar-out-link:hover {
-  border: 3px #00BAFC;
   border-style: solid;
   background-color: #fff;
   color: #00BAFC;
   border-style: solid;
+  border: 3px solid #00BAFC;
 }
 
 .navbar-out-link:active {
   color: #fff;
   background-color: #00BAFC;
   opacity: 0.6;
-  border: none;
+  border: 3px solid #00BAFC;
 }
 
 
@@ -127,6 +129,7 @@
 }
 
 .hero-link {
+  display: inline-block;
   color: #FFF;
   font-size: 16px;
   font-weight: 700;
@@ -153,6 +156,7 @@
 .services-text-wrap {
   width: 719px;
   margin-inline: auto;
+  margin-bottom: 24px;
 }
 
 .service-title {
@@ -161,6 +165,8 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 130%;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .service-text {
@@ -169,6 +175,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0;
 }
 
 
@@ -179,6 +186,8 @@
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .service-item {
@@ -224,6 +233,7 @@
   border-radius: 5px;
   background: #00BAFC;
   margin-right: 16px;
+  display: inline-block;
 }
 
 .service-out-link:hover {
@@ -317,10 +327,21 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
+  margin: 0;
+  margin-top: 16px;
 }
 
 .footer-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+}
+
+.footer-listt {
+  margin-top: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-link {
@@ -359,10 +380,12 @@
 
 .footer-pages-wrap {
   width: 143px;
+  flex-direction: column;
 }
 
 .app-wrapper {
   width: 150px;
+  display: inline-block;
 }
 
 .app-footer {
