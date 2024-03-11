@@ -98,6 +98,17 @@
   border: 3px solid #00BAFC;
 }
 
+.service-item:hover {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 12px 21px 0px rgba(0, 0, 0, 0.10);
+}
+
+.service-item:active {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.20);
+}
 
 
 .hero {
