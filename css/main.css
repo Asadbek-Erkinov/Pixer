@@ -292,6 +292,20 @@
   margin-inline: auto;
   margin-bottom: 48px;
 }
+.work-title {
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 98px;
+}
+
+.work-text {
+  margin: 0;
+}
+
+.work-list {
+  margin: 0;
+  padding: 0;
+}
 
 .work-link {
   color: #FFF;
